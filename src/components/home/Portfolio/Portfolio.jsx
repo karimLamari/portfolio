@@ -23,11 +23,11 @@ export default function Portfolio() {
       link: "https://blink.quxly.fr",
     },
     {
-      title: t.portfolio.projects.bimisushi.title,
-      description: t.portfolio.projects.bimisushi.description,
-      image: "/images/bimisushi.webp",
-      tags: ["React", "Node.js", "MongoDB"],
-      link: "https://bimisushi31.com",
+      title: t.portfolio.projects.kasa.title,
+      description: t.portfolio.projects.kasa.description,
+      image: "/images/kasa.webp",
+      tags: ["React"],
+      link: "https://kasa-nine-smoky.vercel.app/",
     },
   ];
 
