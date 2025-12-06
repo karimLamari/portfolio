@@ -31,7 +31,12 @@
       "blink": {
         "title": "Blink",
         "description": "Description of your second project"
+      },
+      "kasa": {
+        "title": "Kasa",
+        "description": "A real estate rental platform offering a smooth and intuitive user experience."
       }
+
     }
   },
   "skills": {
