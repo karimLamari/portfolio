@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-space-grotesk: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+}
+
+@theme {
+  --color-background: #191111;
+  --color-foreground: #FF9592;
+  --color-primary: #611623;
+  --color-accent: #7A1E3A;
+  --color-card: #1A1A26;
+  --color-border: #3F3F46;
+  --color-muted: #9CA3AF;
+  
+  --font-sans: var(--font-poppins);
+  --font-heading: var(--font-space-grotesk);
+}
+
+:root {
+  --color-background: #191111;
+  --color-foreground: #FF9592;
+  --color-primary: #611623;
+  --color-accent: #7A1E3A;
+  --color-card: #1A1A26;
+  --color-border: #3F3F46;
+  --color-muted: #e0e4ed;
+}
+
+.light {
+  --color-background: #D6E1FF;
+  --color-foreground: #191111; 
+  --color-primary: #003362;
+  --color-accent: #191111;
+  --color-card: #9EB1FF;
+  --color-border: #6B7FE8; 
+  --color-muted: #031428;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: var(--font-poppins);
+}
+
+.font-sans {
+  font-family: var(--font-poppins) !important;
+}
+
+.font-heading {
+  font-family: var(--font-space-grotesk) !important;
+}

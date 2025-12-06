@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "portfolio": "PORTFOLIO",
+    "skills": "SKILLS",
+    "contact": "CONTACT",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "LAMARI KARIM",
+    "title": "Full Stack Web Developer",
+    "description": "Passionate about crafting modern and performant web experiences. I transform ideas into elegant and functional web applications."
+  },
+  "about": {
+    "title": "About",
+    "titleHighlight": "Me",
+    "paragraph1": "At 26, I made a bold career change from the restaurant industry to pursue my true passion: web development and programming.",
+    "paragraph2": "Currently training as a Full Stack Web Developer at OpenClassrooms, I'm dedicated to building modern, performant, and user-friendly web applications using React, Next.js, Node.js, and TypeScript.",
+    "paragraph3": "My background in hospitality taught me the value of attention to detail, working under pressure, and delivering exceptional experiences — skills I now apply to development."
+  },
+  "portfolio": {
+    "title": "My",
+    "titleHighlight": "Projects",
+    "projects": {
+      "bimisushi": {
+        "title": "BIMI SUSHI",
+        "description": "A sushi restaurant website with online ordering and admin dashboard."
+      },
+      "blink": {
+        "title": "Blink",
+        "description": "Description of your second project"
+      }
+    }
+  },
+  "skills": {
+    "title": "My",
+    "titleHighlight": "Skills"
+  },
+  "contact": {
+    "title": "Contact",
+    "titleHighlight": "Me",
+    "description": "Have a question or a project? Feel free to reach out!",
+    "email": "Mirakiramal@gmail.com",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "submit": "Send message"
+    },
+    "emailSubject": "Contact from portfolio",
+    "emailBody": "Hello Karim,\n\nI'm contacting you after visiting your portfolio.\n\n[Your message here]\n\nBest regards,"
+  }
+}

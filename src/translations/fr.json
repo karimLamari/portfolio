@@ -1,0 +1,78 @@
+{
+  "nav": {
+    "home": "ACCUEIL",
+    "about": "À PROPOS",
+    "portfolio": "PORTFOLIO",
+    "skills": "COMPÉTENCES",
+    "contact": "CONTACT",
+    "toggleMenu": "Ouvrir le menu"
+  },
+  "hero": {
+    "greeting": "Salut, je suis",
+    "name": "LAMARI KARIM",
+    "title": "Développeur Web Full Stack",
+    "description": "Passionné par la création d'expériences web modernes et performantes. Je transforme les idées en applications web élégantes et fonctionnelles."
+  },
+  "about": {
+    "title": "À propos de",
+    "titleHighlight": "Moi",
+    "paragraph1": "À 26 ans, j'ai fait un changement de carrière audacieux en quittant la restauration pour poursuivre ma vraie passion : le développement web et la programmation.",
+    "paragraph2": "Actuellement en formation Développeur Web Full Stack chez OpenClassrooms, je me consacre à la création d'applications web modernes, performantes et conviviales avec React, Next.js, Node.js et TypeScript.",
+    "paragraph3": "Mon expérience dans l'hôtellerie-restauration m'a appris la valeur de l'attention aux détails, du travail sous pression et de la fourniture d'expériences exceptionnelles — des compétences que j'applique maintenant au développement."
+  },
+  "portfolio": {
+    "title": "Mes",
+    "titleHighlight": "Projets",
+    "projects": {
+      "bimisushi": {
+        "title": "BIMI SUSHI",
+        "description": "Un site de restaurant de sushi avec commande en ligne et tableau de bord administrateur."
+      },
+      "blink": {
+        "title": "Blink",
+        "description": "Description de votre deuxième projet"
+      }
+    }
+  },
+  "skills": {
+    "title": "Mes",
+    "titleHighlight": "Compétences",
+    "list": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express"
+      },
+      {
+        "name": "MongoDB"
+      }
+    ]
+  },
+"contact": {
+  "title": "Me",
+  "titleHighlight": "Contacter",
+  "description": "Une question ? Un projet ? N'hésitez pas à me contacter !",
+  "email": "Mirakiramal@gmail.com",
+  "form": {
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "email": "Email",
+    "emailPlaceholder": "votre.email@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Votre message...",
+    "submit": "Envoyer le message"
+  },
+  "emailSubject": "Contact depuis le portfolio",
+  "emailBody": "Bonjour Karim,\n\nJe vous contacte suite à la visite de votre portfolio.\n\n[Votre message ici]\n\nCordialement,"
+}
+}
