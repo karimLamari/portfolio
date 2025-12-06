@@ -18,7 +18,7 @@ const Contact = () => {
         </p>
 
 
-        <div className="flex justify-center items-center gap-2 text-foreground mb-8">
+        <div className="flex justify-center items-center gap-2 text-muted mb-8">
           <HiOutlineMail className="text-2xl text-primary" />
           <a
             href={`mailto:${t.contact.email}`}
@@ -48,7 +48,7 @@ const Contact = () => {
               name="name"
               required
               placeholder={t.contact.form.namePlaceholder}
-              className="w-full px-3 py-2 bg-card border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm"
+              className="w-full px-3 py-2 bg-card border border-border rounded-lg "
             />
           </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
               name="email"
               required
               placeholder={t.contact.form.emailPlaceholder}
-              className="w-full px-3 py-2 bg-card border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm"
+              className="w-full px-3 py-2 bg-card border border-border rounded-lg "
             />
           </div>
 
@@ -77,7 +77,7 @@ const Contact = () => {
               required
               placeholder={t.contact.form.messagePlaceholder}
               rows={4}
-              className="w-full px-3 py-2 bg-card border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none text-sm"
+              className="w-full px-3 py-2 bg-card border border-border rounded-lg "
             />
           </div>
 

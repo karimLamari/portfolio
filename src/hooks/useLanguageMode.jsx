@@ -1,10 +1,9 @@
 import {useState, useEffect} from 'react';
 
 function useLanguageMode() {
-    const [language, setLanguage] = useState(() => {
-        const storedLanguage = localStorage.getItem('language');
-        return storedLanguage ? storedLanguage : 'en';
-    });
+  const [language, setLanguage] = useState(
+    () => localStorage.getItem("language") || "en"
+  );
     useEffect(() => {
         localStorage.setItem('language', language);
     }, [language]);

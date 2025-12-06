@@ -5,10 +5,9 @@ import {useState, useEffect} from 'react';
 export default function useThemeMode() {
 
 
-    const [isDark, setIsDark] = useState(() => {
-        const storedTheme = localStorage.getItem('theme');
-        return storedTheme ? storedTheme === 'dark' : true;
-    });
+const [isDark, setIsDark] = useState(
+  () => (localStorage.getItem("theme") || "dark") === "dark"
+);
    useEffect(() => {
         const html = document.documentElement;
         if (isDark) {
