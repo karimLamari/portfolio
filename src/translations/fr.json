@@ -26,41 +26,43 @@
     "projects": {
       "bimisushi": {
         "title": "BIMI SUSHI",
-        "description": "Un site de restaurant de sushi avec commande en ligne et tableau de bord administrateur."
+        "description": "Un site de restaurant de sushi avec commande en ligne et tableau de bord administrateur.",
+        "image":"/images/bimisushi.webp",
+        "tags":["React","Node.js","Express","MongoDB"],
+        "link": "https://bimisushi31.com",
+        "fullDescription": "BIMI SUSHI est un site web de restaurant de sushi qui permet aux clients de parcourir le menu, de passer des commandes en ligne et de gérer les réservations. Le tableau de bord administrateur permet au personnel de gérer les commandes, les réservations et le menu en temps réel.ce site est l'un de mes premiers projets qui est passer par l'etape html css et JavaScript avant d'etre refait en React pour une meilleur maintenabilité et performance."
+        
       },
       "blink": {
         "title": "Blink",
-        "description": "Description de votre deuxième projet"
+        "description": "Une plateform de creation de factures pour les freelances et petites entreprises.",
+        "image":"/images/blink.webp",
+        "tags":["Next.js","Node.js","Tailwind CSS","MongoDB"],
+        "link": "https://blink.quxly.fr",
+        "fullDescription": "Blink est une plateforme de création de factures destinée aux freelances et petites entreprises. Elle offre une interface intuitive pour générer, gérer et envoyer des factures rapidement et efficacement."
       },
       "kasa": {
         "title": "Kasa",
-        "description": "Une plateforme de location immobilière offrant une expérience utilisateur fluide et intuitive."
-      }
+        "description": "Une plateforme de location immobilière offrant une expérience utilisateur fluide et intuitive.",
+        "image": "/images/kasa.webp",
+        "tags": ["React"],
+        "link": "https://kasa-nine-smoky.vercel.app/",
+        "fullDescription": "Kasa est une plateforme de location immobilière offrant une expérience utilisateur fluide et intuitive. ce projet a été realisé dans le cadre de ma formation chez OpenClassrooms et m'a permis de renforcer mes compétences en React tout en mettant l'accent sur l'expérience utilisateur et la performance."
+      },
+      "Le Vieux grimoire": {
+        "title": "Le Vieux Grimoire",
+        "description": "Un site web pour une librairie spécialisée dans les livres anciens et rares.",
+        "image": "/images/vieuxgrimoire.webp",
+        "tags": ["React","Node.js","Express","MongoDB"],
+        "link": "https://le-vieux-grimoire-w4rz.vercel.app/",
+        "fullDescription": "Le Vieux Grimoire est un site web pour une librairie spécialisée dans les livres anciens et rares.pour ce projet jai realisé tout le backend dans le cadre de ma formation chez OpenClassrooms."
     }
+  }
   },
   "skills": {
     "title": "Mes",
-    "titleHighlight": "Compétences",
-    "list": [
-      {
-        "name": "JavaScript"
-      },
-      {
-        "name": "React"
-      },
-      {
-        "name": "Next.js"
-      },
-      {
-        "name": "Node.js"
-      },
-      {
-        "name": "Express"
-      },
-      {
-        "name": "MongoDB"
-      }
-    ]
+    "titleHighlight": "Compétences"
+
   },
 "contact": {
   "title": "Me",

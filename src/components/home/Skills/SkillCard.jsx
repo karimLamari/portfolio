@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 const SkillCard = ({name, Icon, iconColor}) => {
   return (
-    <div className="flex flex-col items-center p-4 rounded-lg">
+    <div className="flex flex-col items-center p-4 rounded-lg float">
       <Icon
         className={`
         bg-background

@@ -26,22 +26,42 @@
     "projects": {
       "bimisushi": {
         "title": "BIMI SUSHI",
-        "description": "A sushi restaurant website with online ordering and admin dashboard."
+        "description": "A sushi restaurant website with online ordering and admin dashboard.",
+        "image": "/images/bimisushi.webp",
+        "tags": ["React","Node.js","Express","MongoDB"],
+        "link": "https://bimisushi31.com",
+        "fullDescription": "BIMI SUSHI is a sushi restaurant website that allows customers to browse the menu, place online orders, and manage reservations. The admin dashboard enables staff to manage orders, reservations, and the menu in real-time. This site is one of my first projects that went through the HTML, CSS, and JavaScript stage before being redone in React for better maintainability and performance."
       },
       "blink": {
         "title": "Blink",
-        "description": "Description of your second project"
+        "description": "A platform for creating invoices for freelancers and small businesses.",
+        "image": "/images/blink.webp",
+        "tags": ["Next.js","Node.js","Tailwind CSS","MongoDB"],
+        "link": "https://blink.quxly.fr",
+        "fullDescription": "Blink is a platform designed for freelancers and small businesses to create and manage invoices efficiently. It features a user-friendly interface and robust backend built with Next.js and Node.js, styled with Tailwind CSS, and uses MongoDB for data storage."
       },
       "kasa": {
         "title": "Kasa",
-        "description": "A real estate rental platform offering a smooth and intuitive user experience."
+        "description": "A real estate rental platform offering a smooth and intuitive user experience.",
+        "image": "/images/kasa.webp",
+        "tags": ["React"],
+        "link": "https://kasa-nine-smoky.vercel.app/",
+        "fullDescription": "Kasa is a real estate rental platform offering a smooth and intuitive user experience. This project was completed as part of my training at OpenClassrooms and helped me strengthen my React skills while focusing on user experience and performance."
+      },
+      "Le Vieux grimoire": {
+        "title": "Le Vieux Grimoire",
+        "description": "A website for a bookstore specializing in old and rare books.",
+        "image": "/images/vieuxgrimoire.webp",
+        "tags": ["React","Node.js","Express","MongoDB"],
+        "link": "https://le-vieux-grimoire-w4rz.vercel.app/",
+        "fullDescription": "Le Vieux Grimoire is a website for a bookstore specializing in old and rare books. For this project, I developed the entire backend as part of my training at OpenClassrooms."
       }
-
     }
   },
   "skills": {
     "title": "My",
     "titleHighlight": "Skills"
+
   },
   "contact": {
     "title": "Contact",
