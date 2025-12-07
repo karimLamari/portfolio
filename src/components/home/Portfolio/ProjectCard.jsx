@@ -1,8 +1,8 @@
 
 
-function ProjectCard({ title, description, image, tags, link })   {
+function ProjectCard({ title, description, image, tags, link, onClick })   {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer" className="group block text-center">
+    <div className="group block text-center scale-hover" onClick={onClick}>
       <div className="relative w-60 aspect-9/16 mx-auto mb-6  rounded-2xl">
         <img
           src={image}
@@ -27,7 +27,7 @@ function ProjectCard({ title, description, image, tags, link })   {
           </span>
         ))}
       </div>
-    </a>
+    </div>
   );
 }
 export default ProjectCard;
