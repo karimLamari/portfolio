@@ -30,7 +30,7 @@ const Contact = () => {
 
      
         <form
-          action={`https://formsubmit.co/${t.contact.email}`}
+          action="https://formsubmit.co/aa3b3880618f412e6f4ea629137414c2"
           method="POST"
           className="space-y-4"
         >
