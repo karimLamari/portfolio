@@ -9,10 +9,15 @@ const Parcours = () => {
 
 
   return (
-    <section className="py-20 px-4 flex justify-center">
-      <div className="relative border-l-2 border-foreground transition-colors duration-300">
+    <section className="w-full py-20 px-4 flex flex-col justify-center overflow-hidden">
+            <div className="container mx-auto w-full max-w-4xl overflow-hidden">
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12">
+          {t.portfolio.title} <span className="text-primary">{t.portfolio.titleHighlight}</span>
+        </h2>
+        </div>
+      <div className="flex  flex-col items-center">
         {t.parcours.items.map((item, index) => (
-          <ParcoursCard key={index} {...item} />
+          <ParcoursCard key={index} {...item} index={index} />
         ))}
       </div>
     </section>

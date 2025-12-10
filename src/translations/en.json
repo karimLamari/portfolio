@@ -4,6 +4,8 @@
     "about": "ABOUT",
     "portfolio": "PORTFOLIO",
     "skills": "SKILLS",
+    "approach": "APPROACH",
+    "parcours": "JOURNEY",
     "contact": "CONTACT",
     "toggleMenu": "Open Menu"
   },
@@ -108,7 +110,7 @@
         "image": "/images/vieuxgrimoire.webp",
         "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://le-vieux-grimoire-w4rz.vercel.app/",
-                        "githubLink": "https://github.com/karimLamari/Le-Vieux-Grimoire",
+        "githubLink": "https://github.com/karimLamari/Le-Vieux-Grimoire",
         "context": "Le Vieux Grimoire is an application developed as part of my OpenClassrooms training to create a complete backend.",
         "objectives": [
           "Develop a complete and secure REST API.",
@@ -145,14 +147,32 @@
     "title": "My",
     "titleHighlight": "Journey",
     "items": [
-      { "year": "2016", "description": "Obtained a scientific baccalaureate with honors." },
+      {
+        "year": "2016",
+        "description": "Obtained a scientific baccalaureate with honors."
+      },
       { "year": "2016-2017", "description": "Pharmacy studies." },
-      { "year": "2017-2019", "description": "Computer Science studies at Université Paul Sabatier." },
-      { "year": "2017-2020", "description": "Professional experience in hospitality." },
-      { "year": "2020-2022", "description": "Furniture delivery and assembly at home." },
+      {
+        "year": "2017-2019",
+        "description": "Computer Science studies at Université Paul Sabatier."
+      },
+      {
+        "year": "2017-2020",
+        "description": "Professional experience in hospitality."
+      },
+      {
+        "year": "2020-2022",
+        "description": "Furniture delivery and assembly at home."
+      },
       { "year": "2022-2025", "description": "Restaurant manager." },
-      { "year": "2024", "description": "Freelance for a sushi restaurant: full website with admin dashboard." },
-      { "year": "2025", "description": "Web Developer training: React, Node.js, MongoDB." }
+      {
+        "year": "2024",
+        "description": "Freelance for a sushi restaurant: full website with admin dashboard."
+      },
+      {
+        "year": "2025",
+        "description": "Web Developer training: React, Node.js, MongoDB."
+      }
     ]
   },
   "contact": {
