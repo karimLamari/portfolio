@@ -81,7 +81,7 @@ const Header = () => {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border bg-background">
+          <div className="md:hidden py-4 border-t border-border bg-background h-screen">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <a

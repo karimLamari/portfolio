@@ -12,7 +12,7 @@ const {t} = useContext(LanguageContext);
         <div className="flex flex-col items-center text-center gap-8">
 
           <div className="space-y-4">
-            <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight slide-up">
+            <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold slide-up">
               {t.hero.greeting}{" "}
               <span className="text-primary slide-up">{t.hero.name}</span>
             </h1>

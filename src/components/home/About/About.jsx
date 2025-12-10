@@ -6,7 +6,7 @@ const About = () => {
     const { t } = useContext(LanguageContext);
 
   return (
-    <section id="about" className=" py-20 px-4  rounded-t-3xl -mt-8 ">
+    <section id="about" className=" py-20 px-4  rounded-t-3xl -mt-8">
 
       <div className="container mx-auto max-w-6xl">
         

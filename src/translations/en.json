@@ -5,20 +5,20 @@
     "portfolio": "PORTFOLIO",
     "skills": "SKILLS",
     "contact": "CONTACT",
-    "toggleMenu": "Toggle menu"
+    "toggleMenu": "Open Menu"
   },
   "hero": {
     "greeting": "Hi, I'm",
     "name": "LAMARI KARIM",
     "title": "Full Stack Web Developer",
-    "description": "Passionate about crafting modern and performant web experiences. I transform ideas into elegant and functional web applications."
+    "description": "Passionate about creating modern and high-performance web experiences. I turn ideas into elegant and functional web applications."
   },
   "about": {
     "title": "About",
     "titleHighlight": "Me",
-    "paragraph1": "At 26, I made a bold career change from the restaurant industry to pursue my true passion: web development and programming.",
-    "paragraph2": "Currently training as a Full Stack Web Developer at OpenClassrooms, I'm dedicated to building modern, performant, and user-friendly web applications using React, Next.js, Node.js, and TypeScript.",
-    "paragraph3": "My background in hospitality taught me the value of attention to detail, working under pressure, and delivering exceptional experiences — skills I now apply to development."
+    "paragraph1": "At 26, I made a bold career change, leaving the hospitality industry to pursue my true passion: web development and programming.",
+    "paragraph2": "Currently enrolled in the Full Stack Web Developer program at OpenClassrooms, I focus on creating modern, high-performance, and user-friendly web applications using React, Next.js, Node.js, and TypeScript.",
+    "paragraph3": "My experience in hospitality taught me the value of attention to detail, working under pressure, and delivering exceptional experiences — skills I now apply to development."
   },
   "portfolio": {
     "title": "My",
@@ -28,17 +28,54 @@
         "title": "BIMI SUSHI",
         "description": "A sushi restaurant website with online ordering and admin dashboard.",
         "image": "/images/bimisushi.webp",
-        "tags": ["React","Node.js","Express","MongoDB"],
+        "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://bimisushi31.com",
-        "fullDescription": "BIMI SUSHI is a sushi restaurant website that allows customers to browse the menu, place online orders, and manage reservations. The admin dashboard enables staff to manage orders, reservations, and the menu in real-time. This site is one of my first projects that went through the HTML, CSS, and JavaScript stage before being redone in React for better maintainability and performance."
+        "githubLink": "https://github.com/karimLamari/bimisushi",
+        "context": "BIMI SUSHI is a sushi restaurant website that allows customers to browse the menu, place online orders, and manage reservations. The admin dashboard enables staff to manage orders, reservations, and the menu in real time. This project was one of my first using HTML, CSS, and JavaScript before being rebuilt in React for better maintainability and performance.",
+        "objectives": [
+          "Create an attractive and user-friendly interface for customers.",
+          "Develop an efficient and secure online ordering system.",
+          "Implement an admin dashboard to manage restaurant operations."
+        ],
+        "skills": [
+          "Transitioned from a static website to a modern full-stack architecture.",
+          "Designed REST APIs and handled CRUD operations.",
+          "Managed frontend state and routing.",
+          "Used socket.io for real-time updates."
+        ],
+        "results": [
+          "The website is now fast and responsive with a fully functional admin dashboard.",
+          "Customers can easily place orders, and staff can efficiently manage the restaurant."
+        ],
+        "perspectives": [
+          "Add an online payment system and email notifications for orders to enhance the customer experience."
+        ]
       },
       "blink": {
         "title": "Blink",
         "description": "A platform for creating invoices for freelancers and small businesses.",
         "image": "/images/blink.webp",
-        "tags": ["Next.js","Node.js","Tailwind CSS","MongoDB"],
+        "tags": ["Next.js", "Node.js", "Tailwind CSS", "MongoDB"],
         "link": "https://blink.quxly.fr",
-        "fullDescription": "Blink is a platform designed for freelancers and small businesses to create and manage invoices efficiently. It features a user-friendly interface and robust backend built with Next.js and Node.js, styled with Tailwind CSS, and uses MongoDB for data storage."
+        "githubLink": "https://github.com/karimLamari/blink",
+        "context": "Blink is a platform designed for freelancers and small businesses to quickly generate, organize, and send invoices professionally and intuitively.",
+        "objectives": [
+          "Provide a simple interface to generate customized invoices.",
+          "Enable invoice management and tracking.",
+          "Ensure a smooth user experience using Next.js performance features."
+        ],
+        "skills": [
+          "Full-stack development with Next.js and MongoDB.",
+          "API management via App Router routes.",
+          "Created modern UI components with Tailwind CSS.",
+          "SEO optimization, performance, and data persistence."
+        ],
+        "results": [
+          "Users can now create and manage invoices easily and efficiently with an intuitive interface."
+        ],
+        "perspectives": [
+          "Add customizable invoice templates and automation for sending invoices via email."
+        ]
       },
       "kasa": {
         "title": "Kasa",
@@ -46,27 +83,82 @@
         "image": "/images/kasa.webp",
         "tags": ["React"],
         "link": "https://kasa-nine-smoky.vercel.app/",
-        "fullDescription": "Kasa is a real estate rental platform offering a smooth and intuitive user experience. This project was completed as part of my training at OpenClassrooms and helped me strengthen my React skills while focusing on user experience and performance."
+        "githubLink": "https://github.com/karimLamari/Kasa",
+        "context": "Kasa is a real estate rental platform developed as part of my OpenClassrooms training.",
+        "objectives": [
+          "Design a modern interface faithful to the provided mockup.",
+          "Implement full routing with React Router.",
+          "Ensure a responsive experience across all devices."
+        ],
+        "skills": [
+          "Structured a React application and created reusable components.",
+          "Handled routing and dynamic pages.",
+          "Implemented conditional rendering and faithfully integrated the UI mockup."
+        ],
+        "results": [
+          "The platform now provides smooth navigation, a responsive design, and a UI faithful to the mockup."
+        ],
+        "perspectives": [
+          "Add advanced search and filtering for properties to improve user navigation."
+        ]
       },
-      "Le Vieux grimoire": {
+      "le-vieux-grimoire": {
         "title": "Le Vieux Grimoire",
-        "description": "A website for a bookstore specializing in old and rare books.",
+        "description": "A website for a bookstore specializing in rare and antique books.",
         "image": "/images/vieuxgrimoire.webp",
-        "tags": ["React","Node.js","Express","MongoDB"],
+        "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://le-vieux-grimoire-w4rz.vercel.app/",
-        "fullDescription": "Le Vieux Grimoire is a website for a bookstore specializing in old and rare books. For this project, I developed the entire backend as part of my training at OpenClassrooms."
+                        "githubLink": "https://github.com/karimLamari/Le-Vieux-Grimoire",
+        "context": "Le Vieux Grimoire is an application developed as part of my OpenClassrooms training to create a complete backend.",
+        "objectives": [
+          "Develop a complete and secure REST API.",
+          "Manage user authentication via JWT.",
+          "Enable book addition, rating, and management."
+        ],
+        "skills": [
+          "Created a full Node.js/Express backend using MVC architecture.",
+          "Handled authentication and security with JWT.",
+          "Managed MongoDB database with validation and error handling."
+        ],
+        "results": [
+          "The website now has a secure backend for effective book and user management.",
+          "Rating system is fully functional."
+        ],
+        "perspectives": [
+          "Add stock management and an advanced admin interface for easier daily operations."
+        ]
       }
     }
   },
   "skills": {
     "title": "My",
     "titleHighlight": "Skills"
-
+  },
+  "approach": {
+    "title": "My",
+    "titleHighlight": "Approach",
+    "method": "I like working in a structured yet flexible way. I combine an Agile approach to iterate quickly and test ideas, and I don't hesitate to collaborate or draw inspiration from design to improve the user experience.",
+    "value": "Curious and meticulous, I always seek to understand the 'why' before coding. My hospitality experience taught me patience, precision, and the importance of quality experiences — qualities I now apply in my web projects.",
+    "vision": "I believe clean code and a pleasant interface go hand in hand. My goal is to create high-performance, intuitive, and elegant web applications while keeping a pragmatic and user-centered approach."
+  },
+  "parcours": {
+    "title": "My",
+    "titleHighlight": "Journey",
+    "items": [
+      { "year": "2016", "description": "Obtained a scientific baccalaureate with honors." },
+      { "year": "2016-2017", "description": "Pharmacy studies." },
+      { "year": "2017-2019", "description": "Computer Science studies at Université Paul Sabatier." },
+      { "year": "2017-2020", "description": "Professional experience in hospitality." },
+      { "year": "2020-2022", "description": "Furniture delivery and assembly at home." },
+      { "year": "2022-2025", "description": "Restaurant manager." },
+      { "year": "2024", "description": "Freelance for a sushi restaurant: full website with admin dashboard." },
+      { "year": "2025", "description": "Web Developer training: React, Node.js, MongoDB." }
+    ]
   },
   "contact": {
-    "title": "Contact",
-    "titleHighlight": "Me",
-    "description": "Have a question or a project? Feel free to reach out!",
+    "title": "Get",
+    "titleHighlight": "In Touch",
+    "description": "Any questions? A project? Feel free to contact me!",
     "email": "Mirakiramal@gmail.com",
     "form": {
       "name": "Name",
@@ -75,9 +167,9 @@
       "emailPlaceholder": "your.email@example.com",
       "message": "Message",
       "messagePlaceholder": "Your message...",
-      "submit": "Send message"
+      "submit": "Send Message"
     },
     "emailSubject": "Contact from portfolio",
-    "emailBody": "Hello Karim,\n\nI'm contacting you after visiting your portfolio.\n\n[Your message here]\n\nBest regards,"
+    "emailBody": "Hello Karim,\n\nI am contacting you after visiting your portfolio.\n\n[Your message here]\n\nBest regards,"
   }
 }

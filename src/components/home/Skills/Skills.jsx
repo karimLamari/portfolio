@@ -8,6 +8,19 @@ import SkillCard from './SkillCard.jsx';
 
 
 const Skills = () => {
+
+
+  const skills = [
+  { name: "JavaScript", Icon: IoLogoJavascript, iconColor: "text-yellow-400" },
+  { name: "React", Icon: FaReact, iconColor: "text-cyan-400" },
+  { name: "Next.js", Icon: RiNextjsFill, iconColor: "text-white" },
+  { name: "Node.js", Icon: FaNodeJs, iconColor: "text-green-500" },
+  { name: "Express", Icon: SiExpress, iconColor: "text-gray-400" },
+  { name: "MongoDB", Icon: SiMongodb, iconColor: "text-green-600" },
+  { name: "Git", Icon: FaGit, iconColor: "text-red-500" },
+  { name: "Docker", Icon: SiDocker, iconColor: "text-blue-500" }
+];
+
     const { t } = useContext(LanguageContext);
   return (
 <section id="skills" className="py-20 px-4 rounded-t-3xl -mt-8 ">
@@ -16,14 +29,14 @@ const Skills = () => {
           {t.skills.title} <span className="text-primary">{t.skills.titleHighlight}</span>
         </h2>
         <div className="flex justify-around flex-wrap gap-12">
-          <SkillCard name="JavaScript" Icon={IoLogoJavascript} iconColor="text-yellow-400" />
-          <SkillCard name="React" Icon={FaReact} iconColor="text-cyan-400" />
-          <SkillCard name="Next.js" Icon={RiNextjsFill} iconColor="text-white" />
-          <SkillCard name="Node.js" Icon={FaNodeJs} iconColor="text-green-500" />
-          <SkillCard name="Express" Icon={SiExpress} iconColor="text-gray-400" />
-          <SkillCard name="MongoDB" Icon={SiMongodb} iconColor="text-green-600" />
-          <SkillCard name="Git" Icon={FaGit} iconColor="text-red-500" />
-          <SkillCard name="Docker" Icon={SiDocker} iconColor="text-blue-500" />
+          {skills.map(skill =>(
+            <SkillCard
+              key={skill.name}
+              name={skill.name}
+              Icon={skill.Icon}
+              iconColor={skill.iconColor}
+            />
+          ))}
         </div>
       </div>
     </section>
