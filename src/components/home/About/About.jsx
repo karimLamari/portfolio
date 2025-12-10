@@ -1,16 +1,21 @@
 import React, { useContext } from 'react';
 import { LanguageContext } from '../../../context/LanguageProvider.jsx';
 import ParticlesBackground from '../../shared/ParticlesBackground.js';
-
+import { motion } from 'framer-motion';
 const About = () => {
     const { t } = useContext(LanguageContext);
 
   return (
-    <section id="about" className=" py-20 px-4  rounded-t-3xl -mt-8">
+    <motion.section id="about" className=" py-20 px-4  rounded-t-3xl -mt-8 overflow-hidden" 
+  initial={{ x: 200, opacity: 0 }}
+  whileInView={{ x: 0, opacity: 1 }}
+  transition={{ duration: 0.3 }}
+    >
+      <ParticlesBackground />
 
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto w-full max-w-4xl ">
         
-        <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12">
+        <h2 className="font-heading text-2xl md:text-2xl font-bold text-center mb-12">
           {t.about.title} <span className="text-primary">{t.about.titleHighlight}</span>
         </h2>
 
@@ -30,7 +35,7 @@ const About = () => {
 
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 

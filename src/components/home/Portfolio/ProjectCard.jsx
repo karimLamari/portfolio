@@ -2,7 +2,7 @@
 
 function ProjectCard({ title, description, image, tags, link, onClick })   {
   return (
-    <div className="group block text-center scale-hover" onClick={onClick}>
+    <div className="group block text-center hover:scale-105" onClick={onClick}>
       <div className="relative w-45 md:w-60 aspect-9/16 mx-auto mb-6  rounded-2xl">
         <img
           src={image}
@@ -10,10 +10,10 @@ function ProjectCard({ title, description, image, tags, link, onClick })   {
           className="object-contain"
         />
         <div
-          className="absolute bg-black/80 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-4xl"
+          className="absolute bg-black/80 flex items-center justify-center p-4 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-4xl"
           style={{ top: '1%', bottom: '1%', left: '5%', right: '1%' }}
         >
-          <p className="text-white text-sm leading-relaxed">{description}</p>
+          <p className="text-white text-sm ">{description}</p>
         </div>
       </div>
       <h3 className="font-heading text-xl font-semibold mb-2">{title}</h3>

@@ -14,6 +14,8 @@ const Header = () => {
     { name: t.nav.about, href: '#about' },
     { name: t.nav.portfolio, href: '#portfolio' },
     { name: t.nav.skills, href: '#skills' },
+    { name: t.nav.approach, href: '#approach' },    
+    { name: t.nav.parcours, href: '#parcours' },
     { name: t.nav.contact, href: '#contact' },
   ];
 
