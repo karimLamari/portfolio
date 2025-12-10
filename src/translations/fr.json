@@ -27,19 +27,57 @@
       "bimisushi": {
         "title": "BIMI SUSHI",
         "description": "Un site de restaurant de sushi avec commande en ligne et tableau de bord administrateur.",
-        "image":"/images/bimisushi.webp",
-        "tags":["React","Node.js","Express","MongoDB"],
+        "image": "/images/bimisushi.webp",
+        "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://bimisushi31.com",
-        "fullDescription": "BIMI SUSHI est un site web de restaurant de sushi qui permet aux clients de parcourir le menu, de passer des commandes en ligne et de gérer les réservations. Le tableau de bord administrateur permet au personnel de gérer les commandes, les réservations et le menu en temps réel.ce site est l'un de mes premiers projets qui est passer par l'etape html css et JavaScript avant d'etre refait en React pour une meilleur maintenabilité et performance."
-        
+        "githubLink": "https://github.com/karimLamari/bimisushi",
+        "context": "BIMI SUSHI est un site web de restaurant de sushi qui permet aux clients de parcourir le menu, de passer des commandes en ligne et de gérer les réservations. Le tableau de bord administrateur permet au personnel de gérer les commandes, les réservations et le menu en temps réel. Ce projet est l’un de mes premiers qui est passé par HTML, CSS et JavaScript avant d’être refait en React pour une meilleure maintenabilité et performance.",
+        "objectifs": [
+          "Créer une interface utilisateur attrayante et facile à utiliser pour les clients.",
+          "Développer un système de commande en ligne efficace et sécurisé.",
+          "Mettre en place un tableau de bord administrateur pour la gestion des opérations du restaurant."
+        ],
+        "skills": [
+          "Passage d’un site statique à une architecture full-stack moderne.",
+          "Conception d’API REST et gestion CRUD.",
+          "Gestion d’état et routing côté frontend.",
+          "Utilisation de socket.io pour les mises à jour en temps réel."
+        ],
+        "results": [
+          "Le site est performant et réactif avec un tableau de bord administrateur opérationnel.",
+          "Les clients peuvent commander facilement et le personnel gère efficacement le restaurant."
+        ],
+        "perspectives": [
+          "Ajouter un système de paiement en ligne et des notifications par e-mail pour les commandes."
+        ]
       },
       "blink": {
         "title": "Blink",
-        "description": "Une plateform de creation de factures pour les freelances et petites entreprises.",
-        "image":"/images/blink.webp",
-        "tags":["Next.js","Node.js","Tailwind CSS","MongoDB"],
+        "description": "Une plateforme de création de factures pour les freelances et petites entreprises.",
+        "image": "/images/blink.webp",
+        "tags": ["Next.js", "Node.js", "Tailwind CSS", "MongoDB"],
         "link": "https://blink.quxly.fr",
-        "fullDescription": "Blink est une plateforme de création de factures destinée aux freelances et petites entreprises. Elle offre une interface intuitive pour générer, gérer et envoyer des factures rapidement et efficacement."
+        "githubLink": "https://github.com/karimLamari/blink",
+
+        "context": "Blink est une plateforme destinée aux freelances et petites entreprises pour créer et gérer des factures efficacement.",
+        "objectifs": [
+          "Offrir une interface simple pour générer des factures personnalisées.",
+          "Permettre la gestion et le suivi des factures.",
+          "Assurer une expérience fluide grâce aux performances de Next.js."
+        ],
+        "skills": [
+          "Développement full-stack avec Next.js et MongoDB.",
+          "Gestion d’API via les routes App Router.",
+          "Création de composants UI modernes avec Tailwind CSS.",
+          "Optimisation SEO et performance, persistance des données."
+        ],
+        "results": [
+          "Création et gestion de factures faciles et efficaces pour les freelances et petites entreprises.",
+          "Interface performante et intuitive."
+        ],
+        "perspectives": [
+          "Ajouter des modèles de factures personnalisables et un système d'automatisation pour l'envoi par e-mail."
+        ]
       },
       "kasa": {
         "title": "Kasa",
@@ -47,38 +85,113 @@
         "image": "/images/kasa.webp",
         "tags": ["React"],
         "link": "https://kasa-nine-smoky.vercel.app/",
-        "fullDescription": "Kasa est une plateforme de location immobilière offrant une expérience utilisateur fluide et intuitive. ce projet a été realisé dans le cadre de ma formation chez OpenClassrooms et m'a permis de renforcer mes compétences en React tout en mettant l'accent sur l'expérience utilisateur et la performance."
+        "githubLink": "https://github.com/karimLamari/Kasa",
+
+        "context": "Kasa est une plateforme de location immobilière réalisée dans le cadre de ma formation OpenClassrooms.",
+        "objectifs": [
+          "Concevoir une interface moderne fidèle à la maquette.",
+          "Mettre en place un routing complet avec React Router.",
+          "Assurer une expérience responsive sur tous les appareils."
+        ],
+        "skills": [
+          "Structurer une application React, créer des composants réutilisables.",
+          "Gérer le routing et les pages dynamiques.",
+          "Mettre en place un affichage conditionnel et intégrer fidèlement une maquette UI."
+        ],
+        "results": [
+          "Navigation fluide, interface fidèle à la maquette, responsive sur tous les appareils."
+        ],
+        "perspectives": [
+          "Ajouter une recherche et un filtrage avancé des logements."
+        ]
       },
-      "Le Vieux grimoire": {
+      "le-vieux-grimoire": {
         "title": "Le Vieux Grimoire",
         "description": "Un site web pour une librairie spécialisée dans les livres anciens et rares.",
         "image": "/images/vieuxgrimoire.webp",
-        "tags": ["React","Node.js","Express","MongoDB"],
+        "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://le-vieux-grimoire-w4rz.vercel.app/",
-        "fullDescription": "Le Vieux Grimoire est un site web pour une librairie spécialisée dans les livres anciens et rares.pour ce projet jai realisé tout le backend dans le cadre de ma formation chez OpenClassrooms."
+        "githubLink": "https://github.com/karimLamari/Le-Vieux-Grimoire",
+
+        "context": "Le Vieux Grimoire est une application réalisée dans le cadre de ma formation OpenClassrooms pour développer un backend complet.",
+        "objectifs": [
+          "Développer une API REST complète et sécurisée.",
+          "Gérer l'authentification des utilisateurs via JWT.",
+          "Permettre l'ajout, la notation et la gestion des livres."
+        ],
+        "skills": [
+          "Créer un backend Node.js/Express complet avec architecture MVC.",
+          "Gérer authentification et sécurisation avec JWT.",
+          "Manipuler une base de données MongoDB et validations de données."
+        ],
+        "results": [
+          "Backend complet et sécurisé, gestion efficace des livres et utilisateurs.",
+          "Système de notation fonctionnel."
+        ],
+        "perspectives": [
+          "Ajouter un système de gestion des stocks et une interface administrateur avancée."
+        ]
+      }
     }
-  }
   },
   "skills": {
     "title": "Mes",
     "titleHighlight": "Compétences"
-
   },
-"contact": {
-  "title": "Me",
-  "titleHighlight": "Contacter",
-  "description": "Une question ? Un projet ? N'hésitez pas à me contacter !",
-  "email": "Mirakiramal@gmail.com",
-  "form": {
-    "name": "Nom",
-    "namePlaceholder": "Votre nom",
-    "email": "Email",
-    "emailPlaceholder": "votre.email@example.com",
-    "message": "Message",
-    "messagePlaceholder": "Votre message...",
-    "submit": "Envoyer le message"
+  "approach": {
+    "title": "Mon",
+    "titleHighlight": "Approche",
+    "method": "J’aime travailler de manière structurée tout en restant flexible. Je combine une approche Agile pour itérer rapidement et tester mes idées, et je n’hésite pas à travailler en binôme ou à m’inspirer du design pour améliorer l’expérience utilisateur.",
+    "value": "Curieux et rigoureux, je cherche toujours à comprendre le pourquoi des choses avant de coder. Mon expérience dans la restauration m’a appris la patience, la précision et l’importance d’offrir une expérience de qualité — des qualités que j'applique maintenant dans mes projets web.",
+    "vision": "Je crois qu’un code propre et une interface agréable vont de pair. Mon objectif est de créer des applications web performantes, intuitives et élégantes, tout en gardant une approche pragmatique et centrée utilisateur."
   },
-  "emailSubject": "Contact depuis le portfolio",
-  "emailBody": "Bonjour Karim,\n\nJe vous contacte suite à la visite de votre portfolio.\n\n[Votre message ici]\n\nCordialement,"
-}
+  "parcours": {
+    "title": "Mon",
+    "titleHighlight": "Parcours",
+    "items": [
+      {
+        "year": "2016",
+        "description": "Obtention d'un Bac scientifique avec mention."
+      },
+      { "year": "2016-2017", "description": "Études en pharmacie." },
+      {
+        "year": "2017-2019",
+        "description": "Études en informatique à l'Université Paul Sabatier."
+      },
+      {
+        "year": "2017-2020",
+        "description": "Expérience professionnelle en restauration."
+      },
+      {
+        "year": "2020-2022",
+        "description": "Livraison et montage de meubles à domicile."
+      },
+      { "year": "2022-2025", "description": "Manager en restauration." },
+      {
+        "year": "2024",
+        "description": "Freelance pour un restaurant de sushi : création d'un site complet avec dashboard admin."
+      },
+      {
+        "year": "2025",
+        "description": "Formation Développeur Web : React, Node.js, MongoDB."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Me",
+    "titleHighlight": "Contacter",
+    "description": "Une question ? Un projet ? N'hésitez pas à me contacter !",
+    "email": "Mirakiramal@gmail.com",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre.email@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Votre message...",
+      "submit": "Envoyer le message"
+    },
+    "emailSubject": "Contact depuis le portfolio",
+    "emailBody": "Bonjour Karim,\n\nJe vous contacte suite à la visite de votre portfolio.\n\n[Votre message ici]\n\nCordialement,"
+  }
 }
