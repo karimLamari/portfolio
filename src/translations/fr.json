@@ -87,9 +87,9 @@
   "approach": {
     "title": "Mon",
     "titleHighlight": "Approche",
-    "method": "J’aime travailler de manière structurée tout en restant flexible. Je combine une approche Agile pour itérer rapidement et tester mes idées, et je n’hésite pas à travailler en binôme ou à m’inspirer du design pour améliorer l’expérience utilisateur.",
-    "value": "Curieux et rigoureux, je cherche toujours à comprendre le pourquoi des choses avant de coder. Mon expérience dans la restauration m’a appris la patience, la précision et l’importance d’offrir une expérience de qualité — des qualités que j'applique maintenant dans mes projets web.",
-    "vision": "Je crois qu’un code propre et une interface agréable vont de pair. Mon objectif est de créer des applications web performantes, intuitives et élégantes, tout en gardant une approche pragmatique et centrée utilisateur."
+    "paragraph1": "J’aime travailler de manière structurée tout en restant flexible. Je combine une approche Agile pour itérer rapidement et tester mes idées, et je n’hésite pas à travailler en binôme ou à m’inspirer du design pour améliorer l’expérience utilisateur.",
+    "paragraph2": "Curieux et rigoureux, je cherche toujours à comprendre le pourquoi des choses avant de coder. Mon expérience dans la restauration m’a appris la patience, la précision et l’importance d’offrir une expérience de qualité — des qualités que j'applique maintenant dans mes projets web.",
+    "paragraph3": "Je crois qu’un code propre et une interface agréable vont de pair. Mon objectif est de créer des applications web performantes, intuitives et élégantes, tout en gardant une approche pragmatique et centrée utilisateur."
   },
   "parcours": {
     "title": "Mon",

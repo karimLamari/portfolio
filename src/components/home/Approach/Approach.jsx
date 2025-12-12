@@ -16,15 +16,15 @@ const Approach = () => {
 
         <div className="mb-8 text-center">
 
-          <p className="text-base md:text-lg text-muted">{approach.method}</p>
+          <p className="text-base md:text-lg text-muted">{approach.paragraph1}</p>
         </div>
 
         <div className="mb-8 text-center">
-          <p className="text-base md:text-lg text-muted">{approach.value}</p>
+          <p className="text-base md:text-lg text-muted">{approach.paragraph2}</p>
         </div>
 
         <div className="text-center">
-          <p className="text-base md:text-lg text-muted">{approach.vision}</p>
+          <p className="text-base md:text-lg text-muted">{approach.paragraph3}</p>
         </div>
       </div>
     </section>
