@@ -22,7 +22,7 @@ const Contact = () => {
           <HiOutlineMail className="text-2xl text-primary" />
           <a
             href={`mailto:${t.contact.email}`}
-            className="text-lg md:text-xl font-heading hover:text-primary transition-colors"
+            className="text-lg md:text-xl font-heading hover:text-primary "
           >
             {t.contact.email}
           </a>

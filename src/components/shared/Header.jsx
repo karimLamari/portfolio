@@ -57,7 +57,7 @@ const Header = () => {
                 key={item.name}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="font-heading text-lg font-medium text-foreground hover:text-muted hover:scale-105 transition-colors"
+                className="font-heading text-lg font-medium text-foreground hover:text-muted hover:scale-105 "
               >
                 {item.name}
               </a>
@@ -71,7 +71,7 @@ const Header = () => {
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-foreground hover:text-primary transition-colors"
+            className="md:hidden p-2 text-foreground hover:text-primary "
             aria-label={t.nav.toggleMenu}
           >
             {isMobileMenuOpen ? (
@@ -90,7 +90,7 @@ const Header = () => {
                   key={item.name}
                   href={item.href}
                   onClick={(e) => handleNavClick(e, item.href)}
-                  className="text-base font-medium text-foreground hover:text-primary transition-colors py-2"
+                  className="text-base font-medium text-foreground hover:text-primary  py-2"
                 >
                   {item.name}
                 </a>
