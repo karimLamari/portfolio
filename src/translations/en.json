@@ -5,7 +5,7 @@
     "portfolio": "PORTFOLIO",
     "skills": "SKILLS",
     "approach": "APPROACH",
-    "parcours": "JOURNEY",
+    "parcours": "CAREER",
     "contact": "CONTACT",
     "toggleMenu": "Open Menu"
   },
@@ -18,91 +18,52 @@
   "about": {
     "title": "About",
     "titleHighlight": "Me",
-    "paragraph1": "At 26, I made a bold career change, leaving the hospitality industry to pursue my true passion: web development and programming.",
+    "paragraph1": "At 26, I made a career change, leaving the restaurant industry to pursue my true passion: web development and programming.",
     "paragraph2": "Currently enrolled in the Full Stack Web Developer program at OpenClassrooms, I focus on creating modern, high-performance, and user-friendly web applications using React, Next.js, Node.js, and TypeScript.",
-    "paragraph3": "My experience in hospitality taught me the value of attention to detail, working under pressure, and delivering exceptional experiences — skills I now apply to development."
+    "paragraph3": "My experience in the restaurant industry taught me the value of attention to detail, working under pressure, and delivering exceptional experiences — skills I now apply to development."
   },
-  "portfolio": {
+"portfolio": {
     "title": "My",
     "titleHighlight": "Projects",
     "projects": {
       "bimisushi": {
         "title": "BIMI SUSHI",
-        "description": "A sushi restaurant website with online ordering and admin dashboard.",
+        "description": "A sushi restaurant website with online ordering and an admin dashboard.",
         "image": "/images/bimisushi.webp",
         "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://bimisushi31.com",
         "githubLink": "https://github.com/karimLamari/bimisushi",
-        "context": "BIMI SUSHI is a sushi restaurant website that allows customers to browse the menu, place online orders, and manage reservations. The admin dashboard enables staff to manage orders, reservations, and the menu in real time. This project was one of my first using HTML, CSS, and JavaScript before being rebuilt in React for better maintainability and performance.",
-        "objectives": [
-          "Create an attractive and user-friendly interface for customers.",
-          "Develop an efficient and secure online ordering system.",
-          "Implement an admin dashboard to manage restaurant operations."
-        ],
-        "skills": [
-          "Transitioned from a static website to a modern full-stack architecture.",
-          "Designed REST APIs and handled CRUD operations.",
-          "Managed frontend state and routing.",
-          "Used socket.io for real-time updates."
-        ],
-        "results": [
-          "The website is now fast and responsive with a fully functional admin dashboard.",
-          "Customers can easily place orders, and staff can efficiently manage the restaurant."
-        ],
-        "perspectives": [
-          "Add an online payment system and email notifications for orders to enhance the customer experience."
-        ]
+        "context": "BIMI SUSHI is a sushi restaurant website that allows customers to browse the menu, place orders online, and manage reservations. It also features an admin dashboard that enables staff to manage orders, reservations, and menu items in real time. This project was one of my first, originally built with HTML, CSS, and JavaScript, and later rebuilt in React for better maintainability and performance.",
+        "objectives": "The main objectives were to create an attractive and user-friendly interface for customers, develop a secure and efficient online ordering system, and provide the restaurant with a comprehensive admin dashboard to manage daily operations.",
+        "skills": "During this project, I transformed the static site into a modern full-stack architecture, designed REST APIs with full CRUD functionality, handled state and routing on the frontend, and implemented real-time updates using Socket.IO.",
+        "results": "The website is now responsive and high-performing, offering a seamless experience for both customers and staff. Customers can place orders easily, while the restaurant team can efficiently manage operations through the dashboard.",
+        "perspectives": "Future improvements could include adding an online payment system and email notifications for orders."
       },
       "blink": {
         "title": "Blink",
-        "description": "A platform for creating invoices for freelancers and small businesses.",
+        "description": "A platform for freelancers and small businesses to create and manage invoices.",
         "image": "/images/blink.webp",
         "tags": ["Next.js", "Node.js", "Tailwind CSS", "MongoDB"],
         "link": "https://blink.quxly.fr",
         "githubLink": "https://github.com/karimLamari/blink",
-        "context": "Blink is a platform designed for freelancers and small businesses to quickly generate, organize, and send invoices professionally and intuitively.",
-        "objectives": [
-          "Provide a simple interface to generate customized invoices.",
-          "Enable invoice management and tracking.",
-          "Ensure a smooth user experience using Next.js performance features."
-        ],
-        "skills": [
-          "Full-stack development with Next.js and MongoDB.",
-          "API management via App Router routes.",
-          "Created modern UI components with Tailwind CSS.",
-          "SEO optimization, performance, and data persistence."
-        ],
-        "results": [
-          "Users can now create and manage invoices easily and efficiently with an intuitive interface."
-        ],
-        "perspectives": [
-          "Add customizable invoice templates and automation for sending invoices via email."
-        ]
+        "context": "Blink is a platform designed for freelancers and small businesses to quickly generate, organize, and send invoices in a professional and intuitive way. It was developed as a full-stack application using Next.js and MongoDB, providing a modern and scalable solution for invoicing workflows.",
+        "objectives": "The main goals were to provide an intuitive and responsive interface for users, allow easy invoice creation and tracking, and ensure a smooth experience thanks to the performance benefits of Next.js.",
+        "skills": "Throughout development, I created modern UI components with Tailwind CSS, managed data persistence, implemented frontend state management and routing, and ensured smooth interaction with backend APIs.",
+        "results": "Users can now create, organize, and manage invoices easily and efficiently through a responsive and intuitive interface.",
+        "perspectives": "Future enhancements could include customizable invoice templates and an automated email system for sending invoices."
       },
       "kasa": {
         "title": "Kasa",
-        "description": "A real estate rental platform offering a smooth and intuitive user experience.",
+        "description": "A property rental platform providing a smooth and intuitive user experience.",
         "image": "/images/kasa.webp",
         "tags": ["React"],
         "link": "https://kasa-nine-smoky.vercel.app/",
         "githubLink": "https://github.com/karimLamari/Kasa",
-        "context": "Kasa is a real estate rental platform developed as part of my OpenClassrooms training.",
-        "objectives": [
-          "Design a modern interface faithful to the provided mockup.",
-          "Implement full routing with React Router.",
-          "Ensure a responsive experience across all devices."
-        ],
-        "skills": [
-          "Structured a React application and created reusable components.",
-          "Handled routing and dynamic pages.",
-          "Implemented conditional rendering and faithfully integrated the UI mockup."
-        ],
-        "results": [
-          "The platform now provides smooth navigation, a responsive design, and a UI faithful to the mockup."
-        ],
-        "perspectives": [
-          "Add advanced search and filtering for properties to improve user navigation."
-        ]
+        "context": "Kasa is a property rental platform built as part of my OpenClassrooms training.",
+        "objectives": "The objectives were to design a modern interface faithful to the provided mockup, implement full routing with React Router, and ensure a responsive experience across all devices.",
+        "skills": "During this project, I structured the React application with reusable components, managed routing and dynamic pages, and implemented conditional rendering in line with the UI mockup.",
+        "results": "The platform provides smooth navigation, a user interface faithful to the mockup, and a fully responsive experience on all devices.",
+        "perspectives": "Future improvements could include adding advanced search and filtering options for listings."
       },
       "le-vieux-grimoire": {
         "title": "Le Vieux Grimoire",
@@ -111,24 +72,11 @@
         "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://le-vieux-grimoire-w4rz.vercel.app/",
         "githubLink": "https://github.com/karimLamari/Le-Vieux-Grimoire",
-        "context": "Le Vieux Grimoire is an application developed as part of my OpenClassrooms training to create a complete backend.",
-        "objectives": [
-          "Develop a complete and secure REST API.",
-          "Manage user authentication via JWT.",
-          "Enable book addition, rating, and management."
-        ],
-        "skills": [
-          "Created a full Node.js/Express backend using MVC architecture.",
-          "Handled authentication and security with JWT.",
-          "Managed MongoDB database with validation and error handling."
-        ],
-        "results": [
-          "The website now has a secure backend for effective book and user management.",
-          "Rating system is fully functional."
-        ],
-        "perspectives": [
-          "Add stock management and an advanced admin interface for easier daily operations."
-        ]
+        "context": "Le Vieux Grimoire is an application developed during my OpenClassrooms training to build a complete backend.",
+        "objectives": "The objectives were to develop a full and secure REST API, manage user authentication with JWT, and enable adding, rating, and managing books.",
+        "skills": "In this project, I created a full Node.js/Express backend using the MVC architecture, handled authentication and security with JWT, and managed a MongoDB database with proper data validation.",
+        "results": "The backend is fully functional and secure, with efficient management of books and users, including a functional rating system.",
+        "perspectives": "Future improvements could include inventory management and an advanced admin interface."
       }
     }
   },
@@ -145,7 +93,7 @@
   },
   "parcours": {
     "title": "My",
-    "titleHighlight": "Journey",
+    "titleHighlight": "Career",
     "items": [
       {
         "year": "2016",

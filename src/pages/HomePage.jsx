@@ -8,7 +8,7 @@ import Approach from '../components/home/Approach/Approach.jsx';
 import Parcours from '../components/home/Parcours/Parcours.jsx';
 export default function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden overflow-y-scroll h-screen snap-y snap-mandatory scroll-smooth">
       <Hero />
       <About />
       <Skills />
@@ -17,5 +17,6 @@ export default function Home() {
       <Parcours />
       <Contact />
     </div>
-  )
+  );
 }
+

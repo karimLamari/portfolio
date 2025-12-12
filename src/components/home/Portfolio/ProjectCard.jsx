@@ -17,7 +17,7 @@ function ProjectCard({ title, description, image, tags, link, onClick })   {
         </div>
       </div>
       <h3 className="font-heading text-xl font-semibold mb-2">{title}</h3>
-      <div className="flex flex-wrap justify-center gap-2 max-w-40 mx-auto">
+      <div className="flex flex-wrap justify-center gap-2 max-w-45 mx-auto">
         {tags.map((tag) => (
           <span
             key={tag}

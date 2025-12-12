@@ -6,8 +6,8 @@ const Approach = () => {
   const approach = t.approach;
 
   return (
-    <section id="approach" className="py-20 px-4 rounded-t-3xl -mt-8">
-      <div className="container mx-auto">
+    <section id="approach" className=" min-h-screen snap-start py-20 px-4 rounded-t-3xl flex flex-col justify-center -mt-8">
+      <div className="container mx-auto flex flex-col justify-center h-full">
 
         <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12">
           {approach.title}{" "}
