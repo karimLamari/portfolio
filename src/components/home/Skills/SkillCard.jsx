@@ -5,7 +5,7 @@ const SkillCard = ({ name, Icon, iconColor }) => {
     <motion.div className="flex flex-col items-center p-4 rounded-lg"
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.2 }}
+      transition={{ duration: 0.5 }}
     >
       
       <Icon

@@ -7,7 +7,7 @@ const Contact = () => {
   const { t } = useContext(LanguageContext);
   return (
 
-   <section id="contact" className="relative min-h-screen py-12 px-4 rounded-t-3xl -mt-8  flex items-center overflow-hidden">
+   <section id="contact" className=" min-h-screen snap-start relative min-h-screen py-12 px-4 rounded-t-3xl -mt-8  flex items-center overflow-hidden">
       <div className="container mx-auto max-w-2xl">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-6">
           {t.contact.title} <span className="text-primary">{t.contact.titleHighlight}</span>

@@ -10,7 +10,7 @@
     "toggleMenu": "Ouvrir le menu"
   },
   "hero": {
-    "greeting": "Salut, je suis",
+    "greeting": "Hey, je suis",
     "name": "LAMARI KARIM",
     "title": "Développeur Web Full Stack",
     "description": "Passionné par la création d'expériences web modernes et performantes. Je transforme les idées en applications web élégantes et fonctionnelles."
@@ -18,11 +18,11 @@
   "about": {
     "title": "À propos de",
     "titleHighlight": "Moi",
-    "paragraph1": "À 26 ans, j'ai fait un changement de carrière audacieux en quittant la restauration pour poursuivre ma vraie passion : le développement web et la programmation.",
+    "paragraph1": "À 26 ans, j'ai fait un changement de carrière  en quittant la restauration pour poursuivre ma vraie passion : le développement web et la programmation.",
     "paragraph2": "Actuellement en formation Développeur Web Full Stack chez OpenClassrooms, je me consacre à la création d'applications web modernes, performantes et conviviales avec React, Next.js, Node.js et TypeScript.",
     "paragraph3": "Mon expérience dans l'hôtellerie-restauration m'a appris la valeur de l'attention aux détails, du travail sous pression et de la fourniture d'expériences exceptionnelles — des compétences que j'applique maintenant au développement."
   },
-  "portfolio": {
+ "portfolio": {
     "title": "Mes",
     "titleHighlight": "Projets",
     "projects": {
@@ -33,25 +33,11 @@
         "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://bimisushi31.com",
         "githubLink": "https://github.com/karimLamari/bimisushi",
-        "context": "BIMI SUSHI est un site web de restaurant de sushi qui permet aux clients de parcourir le menu, de passer des commandes en ligne et de gérer les réservations. Le tableau de bord administrateur permet au personnel de gérer les commandes, les réservations et le menu en temps réel. Ce projet est l’un de mes premiers qui est passé par HTML, CSS et JavaScript avant d’être refait en React pour une meilleure maintenabilité et performance.",
-        "objectifs": [
-          "Créer une interface utilisateur attrayante et facile à utiliser pour les clients.",
-          "Développer un système de commande en ligne efficace et sécurisé.",
-          "Mettre en place un tableau de bord administrateur pour la gestion des opérations du restaurant."
-        ],
-        "skills": [
-          "Passage d’un site statique à une architecture full-stack moderne.",
-          "Conception d’API REST et gestion CRUD.",
-          "Gestion d’état et routing côté frontend.",
-          "Utilisation de socket.io pour les mises à jour en temps réel."
-        ],
-        "results": [
-          "Le site est performant et réactif avec un tableau de bord administrateur opérationnel.",
-          "Les clients peuvent commander facilement et le personnel gère efficacement le restaurant."
-        ],
-        "perspectives": [
-          "Ajouter un système de paiement en ligne et des notifications par e-mail pour les commandes."
-        ]
+        "context": "BIMI SUSHI est un site web de restaurant de sushi qui permet aux clients de parcourir le menu, passer des commandes en ligne et gérer les réservations. Le site inclut également un tableau de bord administrateur permettant au personnel de gérer les commandes, les réservations et le menu en temps réel. Ce projet a été l’un de mes premiers, initialement réalisé avec HTML, CSS et JavaScript, avant d’être refait en React pour une meilleure maintenabilité et performance.",
+        "objectifs": "Les principaux objectifs étaient de créer une interface attrayante et facile à utiliser pour les clients, développer un système de commande en ligne efficace et sécurisé, et mettre en place un tableau de bord administrateur complet pour gérer les opérations du restaurant.",
+        "skills": "Au cours du projet, j’ai transformé le site statique en une architecture full-stack moderne, conçu des API REST avec gestion complète CRUD, géré l’état et le routing côté frontend, et intégré Socket.IO pour les mises à jour en temps réel.",
+        "results": "Le site est désormais performant et réactif, offrant une expérience fluide tant pour les clients que pour le personnel. Les clients peuvent passer leurs commandes facilement, et le personnel gère le restaurant de manière efficace via le tableau de bord.",
+        "perspectives": "À l’avenir, le projet pourrait être amélioré en ajoutant un système de paiement en ligne et des notifications par e-mail pour les commandes."
       },
       "blink": {
         "title": "Blink",
@@ -60,26 +46,11 @@
         "tags": ["Next.js", "Node.js", "Tailwind CSS", "MongoDB"],
         "link": "https://blink.quxly.fr",
         "githubLink": "https://github.com/karimLamari/blink",
-
-        "context": "Blink est une plateforme destinée aux freelances et petites entreprises pour créer et gérer des factures efficacement.",
-        "objectifs": [
-          "Offrir une interface simple pour générer des factures personnalisées.",
-          "Permettre la gestion et le suivi des factures.",
-          "Assurer une expérience fluide grâce aux performances de Next.js."
-        ],
-        "skills": [
-          "Développement full-stack avec Next.js et MongoDB.",
-          "Gestion d’API via les routes App Router.",
-          "Création de composants UI modernes avec Tailwind CSS.",
-          "Optimisation SEO et performance, persistance des données."
-        ],
-        "results": [
-          "Création et gestion de factures faciles et efficaces pour les freelances et petites entreprises.",
-          "Interface performante et intuitive."
-        ],
-        "perspectives": [
-          "Ajouter des modèles de factures personnalisables et un système d'automatisation pour l'envoi par e-mail."
-        ]
+        "context": "Blink est une plateforme destinée aux freelances et petites entreprises pour créer, organiser et envoyer des factures efficacement et intuitivement. Elle a été développée en full-stack avec Next.js et MongoDB, offrant une solution moderne et scalable pour gérer les factures.",
+        "objectifs": "Les objectifs principaux étaient de fournir une interface simple et intuitive pour générer des factures personnalisées, permettre la gestion et le suivi des factures, et assurer une expérience fluide grâce aux performances de Next.js.",
+        "skills": "Durant le développement, j’ai conçu des composants UI modernes avec Tailwind CSS, géré la persistance des données, mis en place la gestion d’état et le routing côté frontend, et assuré une interaction fluide avec les APIs backend.",
+        "results": "Les utilisateurs peuvent désormais créer, organiser et gérer leurs factures facilement et efficacement grâce à une interface performante et intuitive.",
+        "perspectives": "Des améliorations futures pourraient inclure des modèles de factures personnalisables et un système d’automatisation pour l’envoi par e-mail."
       },
       "kasa": {
         "title": "Kasa",
@@ -88,24 +59,11 @@
         "tags": ["React"],
         "link": "https://kasa-nine-smoky.vercel.app/",
         "githubLink": "https://github.com/karimLamari/Kasa",
-
         "context": "Kasa est une plateforme de location immobilière réalisée dans le cadre de ma formation OpenClassrooms.",
-        "objectifs": [
-          "Concevoir une interface moderne fidèle à la maquette.",
-          "Mettre en place un routing complet avec React Router.",
-          "Assurer une expérience responsive sur tous les appareils."
-        ],
-        "skills": [
-          "Structurer une application React, créer des composants réutilisables.",
-          "Gérer le routing et les pages dynamiques.",
-          "Mettre en place un affichage conditionnel et intégrer fidèlement une maquette UI."
-        ],
-        "results": [
-          "Navigation fluide, interface fidèle à la maquette, responsive sur tous les appareils."
-        ],
-        "perspectives": [
-          "Ajouter une recherche et un filtrage avancé des logements."
-        ]
+        "objectifs": "Les objectifs étaient de concevoir une interface moderne fidèle à la maquette, mettre en place un routing complet avec React Router, et assurer une expérience responsive sur tous les appareils.",
+        "skills": "Durant ce projet, j’ai structuré l’application React en composants réutilisables, géré le routing et les pages dynamiques, et mis en place un affichage conditionnel fidèle à la maquette UI.",
+        "results": "Le résultat est une navigation fluide, une interface fidèle à la maquette, et une expérience responsive sur tous les appareils.",
+        "perspectives": "À l’avenir, le projet pourrait être amélioré en ajoutant une recherche et un filtrage avancé des logements."
       },
       "le-vieux-grimoire": {
         "title": "Le Vieux Grimoire",
@@ -114,25 +72,11 @@
         "tags": ["React", "Node.js", "Express", "MongoDB"],
         "link": "https://le-vieux-grimoire-w4rz.vercel.app/",
         "githubLink": "https://github.com/karimLamari/Le-Vieux-Grimoire",
-
         "context": "Le Vieux Grimoire est une application réalisée dans le cadre de ma formation OpenClassrooms pour développer un backend complet.",
-        "objectifs": [
-          "Développer une API REST complète et sécurisée.",
-          "Gérer l'authentification des utilisateurs via JWT.",
-          "Permettre l'ajout, la notation et la gestion des livres."
-        ],
-        "skills": [
-          "Créer un backend Node.js/Express complet avec architecture MVC.",
-          "Gérer authentification et sécurisation avec JWT.",
-          "Manipuler une base de données MongoDB et validations de données."
-        ],
-        "results": [
-          "Backend complet et sécurisé, gestion efficace des livres et utilisateurs.",
-          "Système de notation fonctionnel."
-        ],
-        "perspectives": [
-          "Ajouter un système de gestion des stocks et une interface administrateur avancée."
-        ]
+        "objectifs": "Les objectifs étaient de développer une API REST complète et sécurisée, gérer l’authentification des utilisateurs via JWT, et permettre l’ajout, la notation et la gestion des livres.",
+        "skills": "Durant ce projet, j’ai créé un backend Node.js/Express complet avec architecture MVC, géré l’authentification et la sécurisation avec JWT, et manipulé une base de données MongoDB avec validation des données.",
+        "results": "Le backend est complet et sécurisé, avec une gestion efficace des livres et des utilisateurs, ainsi qu’un système de notation fonctionnel.",
+        "perspectives": "Des améliorations futures pourraient inclure un système de gestion des stocks et une interface administrateur avancée."
       }
     }
   },

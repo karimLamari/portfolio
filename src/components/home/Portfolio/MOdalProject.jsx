@@ -3,9 +3,10 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact, FaNodeJs, FaGit } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiExpress, SiMongodb, SiDocker } from "react-icons/si";
+
+
 const MOdalProject = ({ isOpen, project, onClose }) => {
   if (!isOpen) return null;
-  console.log(project);
 
   const skills = [
     {

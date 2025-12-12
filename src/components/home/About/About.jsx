@@ -6,16 +6,16 @@ const About = () => {
     const { t } = useContext(LanguageContext);
 
   return (
-    <motion.section id="about" className=" py-20 px-4  rounded-t-3xl -mt-8 overflow-hidden" 
+    <motion.section id="about" className=" min-h-screen snap-start py-20 px-4 flex flex-col justify-center rounded-t-3xl -mt-8 overflow-hidden" 
   initial={{ x: 200, opacity: 0 }}
   whileInView={{ x: 0, opacity: 1 }}
   transition={{ duration: 0.3 }}
     >
       <ParticlesBackground />
 
-      <div className="container mx-auto w-full max-w-4xl ">
+      <div className="container mx-auto w-full max-w-4xl flex flex-col justify-center h-full">
         
-        <h2 className="font-heading text-2xl md:text-2xl font-bold text-center mb-12">
+        <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12">
           {t.about.title} <span className="text-primary">{t.about.titleHighlight}</span>
         </h2>
 
