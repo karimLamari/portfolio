@@ -87,9 +87,9 @@
   "approach": {
     "title": "My",
     "titleHighlight": "Approach",
-    "method": "I like working in a structured yet flexible way. I combine an Agile approach to iterate quickly and test ideas, and I don't hesitate to collaborate or draw inspiration from design to improve the user experience.",
-    "value": "Curious and meticulous, I always seek to understand the 'why' before coding. My hospitality experience taught me patience, precision, and the importance of quality experiences — qualities I now apply in my web projects.",
-    "vision": "I believe clean code and a pleasant interface go hand in hand. My goal is to create high-performance, intuitive, and elegant web applications while keeping a pragmatic and user-centered approach."
+    "paragraph1": "I like working in a structured yet flexible way. I combine an Agile approach to iterate quickly and test ideas, and I don't hesitate to collaborate or draw inspiration from design to improve the user experience.",
+    "paragraph2": "Curious and meticulous, I always seek to understand the 'why' before coding. My hospitality experience taught me patience, precision, and the importance of quality experiences — qualities I now apply in my web projects.",
+    "paragraph3": "I believe clean code and a pleasant interface go hand in hand. My goal is to create high-performance, intuitive, and elegant web applications while keeping a pragmatic and user-centered approach."
   },
   "parcours": {
     "title": "My",
