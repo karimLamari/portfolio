@@ -19,7 +19,7 @@
     "title": "About",
     "titleHighlight": "Me",
     "paragraph1": "At 26, I made a career change, leaving the restaurant industry to pursue my true passion: web development and programming.",
-    "paragraph2": "Currently enrolled in the Full Stack Web Developer program at OpenClassrooms, I focus on creating modern, high-performance, and user-friendly web applications using React, Next.js, Node.js, and TypeScript.",
+    "paragraph2": "Currently enrolled in the Full Stack Web Developer program at OpenClassrooms, I focus on creating modern, high-performance, and user-friendly web applications using React, Next.js and Node.js .",
     "paragraph3": "My experience in the restaurant industry taught me the value of attention to detail, working under pressure, and delivering exceptional experiences — skills I now apply to development."
   },
 "portfolio": {
@@ -119,7 +119,7 @@
       },
       {
         "year": "2025",
-        "description": "Web Developer training: React, Node.js, MongoDB."
+        "description": "Web Developer training: React, Node.js, MongoDB. at OpenClassrooms."
       }
     ]
   },

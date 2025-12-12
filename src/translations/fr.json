@@ -19,8 +19,8 @@
     "title": "À propos de",
     "titleHighlight": "Moi",
     "paragraph1": "À 26 ans, j'ai fait un changement de carrière  en quittant la restauration pour poursuivre ma vraie passion : le développement web et la programmation.",
-    "paragraph2": "Actuellement en formation Développeur Web Full Stack chez OpenClassrooms, je me consacre à la création d'applications web modernes, performantes et conviviales avec React, Next.js, Node.js et TypeScript.",
-    "paragraph3": "Mon expérience dans l'hôtellerie-restauration m'a appris la valeur de l'attention aux détails, du travail sous pression et de la fourniture d'expériences exceptionnelles — des compétences que j'applique maintenant au développement."
+    "paragraph2": "Actuellement en formation Développeur Web Full Stack chez OpenClassrooms, je me consacre à la création d'applications web modernes, performantes et conviviales avec React, Next.js et Node.js .",
+    "paragraph3": "Mon expérience dans la restauration m'a appris la valeur de l'attention aux détails, du travail sous pression et de la fourniture d'expériences exceptionnelles — des compétences que j'applique maintenant au développement."
   },
  "portfolio": {
     "title": "Mes",
@@ -119,7 +119,7 @@
       },
       {
         "year": "2025",
-        "description": "Formation Développeur Web : React, Node.js, MongoDB."
+        "description": "Formation Développeur Web : React, Node.js, MongoDB. chez OpenClassrooms."
       }
     ]
   },
