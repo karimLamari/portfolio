@@ -25,4 +25,4 @@ Email : Mirakiramal@gmail.com
 
 GitHub : https://github.com/karimLamari
 
-LinkedIn : https://www.linkedin.com/in/karim-lamari
+LinkedIn : https://www.linkedin.com/in/karim-lamari-0944a32b6/
