@@ -21,7 +21,7 @@ function ProjectCard({ title, description, image, tags, link, onClick })   {
         {tags.map((tag) => (
           <span
             key={tag}
-            className="text-xs border border-bg-background-1 px-3 py-1 bg-background text-foreground rounded-full"
+            className="text-xs border border-bg-[var(--color-background)]-1 px-3 py-1 bg-[var(--color-background)] text-[var(--color-foreground)] rounded-full"
           >
             {tag}
           </span>

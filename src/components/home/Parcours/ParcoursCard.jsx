@@ -18,7 +18,7 @@ const ParcoursCard = ({ year, title, description, index }) => {
         <h3 className="font-bold text-muted text-lg">
           {year} {title}
         </h3>
-        <p className="text-foreground">{description}</p>
+        <p className="text-[var(--color-foreground)]">{description}</p>
       </div>
     </motion.div>
   );

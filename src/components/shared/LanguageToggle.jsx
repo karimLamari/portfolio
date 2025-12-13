@@ -16,7 +16,7 @@ const LanguageToggle = () => {
     <div>
       <button
         onClick={handleToggle}
-        className="fixed top-3 right-20 p-3 rounded-full bg-card border border-border hover:bg-accent  shadow-lg z-50"
+        className="fixed top-3 right-20 p-3 rounded-full bg-card border border-border hover:bg-[var(--color-accent)]  shadow-lg z-50"
         aria-label="Toggle language"
       >
         <FiGlobe className="w-5 h-5 text-muted" />

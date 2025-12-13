@@ -44,7 +44,7 @@ const Header = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled
-          ? 'bg-background/80 backdrop-blur-md border-b border-border shadow-sm'
+          ? 'bg-[var(--color-background)]/80 backdrop-blur-md border-b border-border shadow-sm'
           : 'bg-transparent'
       }`}
     >
@@ -57,7 +57,7 @@ const Header = () => {
                 key={item.name}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="font-heading text-lg font-medium text-foreground hover:text-muted hover:scale-105 "
+                className="font-heading text-lg font-medium text-[var(--color-foreground)] hover:text-muted hover:scale-105 "
               >
                 {item.name}
               </a>
@@ -71,7 +71,7 @@ const Header = () => {
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-foreground hover:text-[var(--color-primary)] "
+            className="md:hidden p-2 text-[var(--color-foreground)] hover:text-[var(--color-primary)] "
             aria-label={t.nav.toggleMenu}
           >
             {isMobileMenuOpen ? (
@@ -83,14 +83,14 @@ const Header = () => {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border bg-background h-screen">
+          <div className="md:hidden py-4 border-t border-border bg-[var(--color-background)] h-screen">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
                   onClick={(e) => handleNavClick(e, item.href)}
-                  className="text-base font-medium text-foreground hover:text-[var(--color-primary)]  py-2"
+                  className="text-base font-medium text-[var(--color-foreground)] hover:text-[var(--color-primary)]  py-2"
                 >
                   {item.name}
                 </a>
