@@ -11,7 +11,7 @@ const Approach = () => {
 
         <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12">
           {approach.title}{" "}
-          <span className="text-primary">{approach.titleHighlight}</span>
+          <span className="text-[var(--color-primary)]">{approach.titleHighlight}</span>
         </h2>
 
         <div className="mb-8 text-center">

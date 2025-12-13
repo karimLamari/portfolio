@@ -26,7 +26,7 @@ const Skills = () => {
 <section id="skills" className=" min-h-screen snap-start py-20 px-4 rounded-t-3xl -mt-8 flex flex-col justify-center">
       <div className="container mx-auto max-w-6xl">
         <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12">
-          {t.skills.title} <span className="text-primary">{t.skills.titleHighlight}</span>
+          {t.skills.title} <span className="text-[var(--color-primary)]">{t.skills.titleHighlight}</span>
         </h2>
         <div className="flex justify-around flex-wrap gap-12">
           {skills.map(skill =>(

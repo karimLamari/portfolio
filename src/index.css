@@ -6,8 +6,9 @@
   --font-space-grotesk: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
 }
 
-@theme {
-  --color-background: #191111;
+
+:root {
+--color-background: #191111;
   --color-foreground: #FF9592;
   --color-primary: #611623;
   --color-accent: #7A1E3A;
@@ -17,16 +18,6 @@
   
   --font-sans: var(--font-poppins);
   --font-heading: var(--font-space-grotesk);
-}
-
-:root {
-  --color-background: #191111;
-  --color-foreground: #FF9592;
-  --color-primary: #611623;
-  --color-accent: #7A1E3A;
-  --color-card: #1A1A26;
-  --color-border: #3F3F46;
-  --color-muted: #e0e4ed;
 }
 
 .light {

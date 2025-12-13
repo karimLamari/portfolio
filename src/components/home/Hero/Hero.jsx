@@ -14,7 +14,7 @@ const {t} = useContext(LanguageContext);
           <div className="space-y-4">
             <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold slide-up">
               {t.hero.greeting}{" "}
-              <span className="text-primary slide-up">{t.hero.name}</span>
+              <span className="text-[var(--color-primary)] slide-up">{t.hero.name}</span>
             </h1>
             <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-semibold text-muted">
               {t.hero.title}
