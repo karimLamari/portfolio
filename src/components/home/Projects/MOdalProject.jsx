@@ -24,11 +24,11 @@ const MOdalProject = ({ isOpen, project, onClose }) => {
   ];
   return (
     <div
-      className="fixed inset-0 bg-background/80 flex items-center justify-center z-50"
+      className="fixed inset-0 bg-[var(--color-background)]/80 flex items-center justify-center z-50"
       onClick={onClose}
     >
       <div
-        className="bg-background border border-bg-foreground p-6 rounded-xl max-w-7xl w-full m-4 max-h-[80vh] relative overflow-auto slide-up justify-center"
+        className="bg-[var(--color-background)] border border-bg-[var(--color-foreground)] p-6 rounded-xl max-w-7xl w-full m-4 max-h-[80vh] relative overflow-auto slide-up justify-center"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -55,7 +55,7 @@ const MOdalProject = ({ isOpen, project, onClose }) => {
           })}
         </div>
 
-        <h3 className="bg-background relative text-center slide-up">
+        <h3 className="bg-[var(--color-background)] relative text-center slide-up">
           {project.context}
         </h3>
         <div className="mt-4 text-center relative slide-up">

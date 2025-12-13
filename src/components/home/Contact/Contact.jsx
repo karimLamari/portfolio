@@ -83,7 +83,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full group relative px-6 py-3 bg-primary text-white font-heading text-base rounded-lg hover:bg-primary/90 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1"
+            className="w-full group relative px-6 py-3 bg-[var(--color-primary)] text-white font-heading text-base rounded-lg hover:bg-[var(--color-primary)]/90 transition-all duration-300 hover:shadow-lg hover:shadow-primary/20 hover:-translate-y-1"
           >
             <span className="flex items-center justify-center gap-2">
               <HiOutlineMail className="text-xl group-hover:scale-110 transition-transform duration-300" />
