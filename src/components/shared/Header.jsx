@@ -71,7 +71,7 @@ const Header = () => {
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-foreground hover:text-primary "
+            className="md:hidden p-2 text-foreground hover:text-[var(--color-primary)] "
             aria-label={t.nav.toggleMenu}
           >
             {isMobileMenuOpen ? (
@@ -90,7 +90,7 @@ const Header = () => {
                   key={item.name}
                   href={item.href}
                   onClick={(e) => handleNavClick(e, item.href)}
-                  className="text-base font-medium text-foreground hover:text-primary  py-2"
+                  className="text-base font-medium text-foreground hover:text-[var(--color-primary)]  py-2"
                 >
                   {item.name}
                 </a>

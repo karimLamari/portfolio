@@ -16,7 +16,7 @@ const About = () => {
       <div className="container mx-auto w-full max-w-4xl flex flex-col justify-center h-full">
         
         <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12">
-          {t.about.title} <span className="text-primary">{t.about.titleHighlight}</span>
+          {t.about.title} <span className="text-[var(--color-primary)]">{t.about.titleHighlight}</span>
         </h2>
 
         <div className=" flex  justify-center px-8 items-center">

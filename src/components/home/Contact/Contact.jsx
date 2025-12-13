@@ -10,7 +10,7 @@ const Contact = () => {
    <section id="contact" className=" min-h-screen snap-start relative min-h-screen py-12 px-4 rounded-t-3xl -mt-8  flex items-center overflow-hidden">
       <div className="container mx-auto max-w-2xl">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-6">
-          {t.contact.title} <span className="text-primary">{t.contact.titleHighlight}</span>
+          {t.contact.title} <span className="text-[var(--color-primary)]">{t.contact.titleHighlight}</span>
         </h2>
 
         <p className=" md:text-lg text-muted text-center mb-8">
@@ -19,10 +19,10 @@ const Contact = () => {
 
 
         <div className="flex justify-center items-center gap-2 text-muted mb-8">
-          <HiOutlineMail className="text-2xl text-primary" />
+          <HiOutlineMail className="text-2xl text-[var(--color-primary)]" />
           <a
             href={`mailto:${t.contact.email}`}
-            className="text-lg md:text-xl font-heading hover:text-primary "
+            className="text-lg md:text-xl font-heading hover:text-[var(--color-primary)] "
           >
             {t.contact.email}
           </a>
