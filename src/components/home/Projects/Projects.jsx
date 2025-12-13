@@ -5,12 +5,14 @@ import {LanguageContext} from "../../../context/LanguageProvider.jsx";
 import ModalProject from "./MOdalProject.jsx";
 
 
-export default function Portfolio() {
+export default function Projects() {
   const { t } = useContext(LanguageContext);
 
 
 const projects = Object.values(t.portfolio.projects);
 const [selectedProject, setSelectedProject] = useState(null);
+
+
   return (
     <section id="portfolio" className="min-h-screen snap-start py-20 px-4 rounded-t-3xl -mt-8 flex flex-col justify-center">
       <div className="container mx-auto w-full max-w-full overflow-hidden">

@@ -2,7 +2,7 @@
 
 function ProjectCard({ title, description, image, tags, link, onClick })   {
   return (
-    <div className="group block text-center hover:scale-105" onClick={onClick}>
+    <div className="group block text-center hover:scale-105- cursor-pointer" onClick={onClick}>
       <div className="relative w-45 md:w-60 aspect-9/16 mx-auto mb-6  rounded-2xl">
         <img
           src={image}
