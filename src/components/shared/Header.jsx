@@ -51,7 +51,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           
-          <div className="hidden md:flex items-center gap-8 flex-1 justify-center">
+          <div className="hidden lg:flex items-center gap-8 flex-1 justify-center">
             {navItems.map((item) => (
               <a
                 key={item.name}
@@ -64,14 +64,14 @@ const Header = () => {
             ))}
           </div>
 
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-3">
             <LanguageToggle />
             <ThemeToggle />
           </div>
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 text-[var(--color-foreground)] hover:text-[var(--color-primary)] "
+            className="lg:hidden p-2 text-[var(--color-foreground)] hover:text-[var(--color-primary)] "
             aria-label={t.nav.toggleMenu}
           >
             {isMobileMenuOpen ? (
@@ -83,7 +83,7 @@ const Header = () => {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border bg-[var(--color-background)] h-screen">
+          <div className="lg:hidden py-4 border-t border-border bg-[var(--color-background)] h-screen">
             <div className="flex flex-col gap-4">
               {navItems.map((item) => (
                 <a

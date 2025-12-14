@@ -1,6 +1,6 @@
 import {useContext} from 'react';
 import {LanguageContext} from '../../../context/LanguageProvider.jsx';
-import ParticlesBackground from '../../shared/ParticlesBackground.js';
+import ParticlesBackground from '../../shared/ParticlesBackground.jsx';
 import Icon from './Icon.jsx';
 const Hero = () => {
 const {t} = useContext(LanguageContext);
