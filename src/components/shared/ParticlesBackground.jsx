@@ -31,8 +31,8 @@ export default function ParticlesBackground() {
 
   const colors = useMemo(() => ({
     particles: isDark
-      ? ["#EEEEEE"]  
-      : ["#3E63DD"],  
+      ? ["#EEEEEE"]
+      : ["#3E63DD"],
     links: isDark ? "#EEEEEE" : "#3E63DD",
   }), [isDark]);
 

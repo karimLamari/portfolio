@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { LanguageContext } from '../../../context/LanguageProvider.jsx';
-import ParticlesBackground from '../../shared/ParticlesBackground.js';
+import ParticlesBackground from '../../shared/ParticlesBackground.jsx';
 import { motion } from 'framer-motion';
 const About = () => {
     const { t } = useContext(LanguageContext);
